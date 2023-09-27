@@ -16,6 +16,7 @@ namespace PrimeraConexionBBDDDIW
             NpgsqlConnection coneBD = null;
             coneBD = con.ConexionEstablecida();
             con.HacerConsulta();
+            con.ConexionCerrar();
         }
     }
 }
