@@ -10,6 +10,10 @@ namespace PrimeraConexionBBDDDIW
 {
     internal class Program
     {
+        /// <summary>
+        /// Metodo para main
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             ConectarConBD con =new ConectarConBD();
